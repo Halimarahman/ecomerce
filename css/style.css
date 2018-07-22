@@ -38,7 +38,7 @@ label {
   position: absolute;
   width: 100%;
   content: "";
-  border: 1px solid #00FFFF;
+  border: 1px solid #FFDF00;
   top: 40%;
   z-index: -1; }
 
@@ -47,16 +47,16 @@ label {
   padding: 5px 10px; }
 
 .slider_button {
-  background-color: #00FFFF;
+  background-color: #FFDF00;
   border: none;
   color: black; }
 
 .slider_button:hover {
-  background-color: #008000;
+  background-color: rgba(255, 193, 7, 0.66);
   color: black; }
 
 .menu-bg {
-  background-color: #00FFFF; }
+  background-color: #FFDF00; }
 
 .category_detaili {
   margin-top: 30px;
@@ -71,18 +71,18 @@ label {
   padding: 0px; }
 
 .listcategory {
-  background-color: #00FFFF;
+  background-color: #FFDF00;
   padding: 10px; }
 
 .listcategory:hover {
-  background-color: #008000; }
+  background-color: rgba(255, 193, 7, 0.66); }
 
 .custom {
-  background-color: #00FFFF;
+  background-color: #FFDF00;
   text-align: center; }
 
 .custom1 {
-  background-color: #008000;
+  background-color: rgba(255, 193, 7, 0.66);
   padding: 0px 9px; }
 
 .btn-category {
@@ -149,7 +149,7 @@ label {
   line-height: 60px;
   text-align: center;
   width: 60px;
-  background-color: #008000;
+  background-color: rgba(255, 193, 7, 0.66);
   height: 60px;
   border-radius: 50%; }
 
@@ -165,13 +165,13 @@ label {
   padding: 0px 20px; }
 
 .discount_button {
-  background-color: #00FFFF;
+  background-color: #FFDF00;
   color: black;
   border: none;
   float: right; }
 
 .discount_button:hover {
-  background-color: #008000;
+  background-color: rgba(255, 193, 7, 0.66);
   color: black;
   border: none; }
 
@@ -190,7 +190,7 @@ label {
   width: auto !important; }
 
 .footer {
-  background-color: #00FFFF;
+  background-color: #FFDF00;
   color: black;
   margin-top: 10px; }
 
@@ -217,12 +217,12 @@ label {
   width: 50px;
   padding: 5px 5px;
   margin-left: 10px;
-  background-color: #008000;
+  background-color: rgba(255, 193, 7, 0.66);
   text-align: center; }
 
 .copyright {
   height: 60px;
-  background-color: #008000;
+  background-color: rgba(255, 193, 7, 0.66);
   text-align: center;
   line-height: 60px; }
 
@@ -249,11 +249,11 @@ label {
 .send {
   padding: 12px;
   margin-left: 221px;
-  background-color: #00FFFF;
-  border-color: #00FFFF; }
+  background-color: #FFDF00;
+  border-color: #FFDF00; }
 
 .send:hover {
-  background-color: #008000; }
+  background-color: rgba(255, 193, 7, 0.66); }
 
 .latest {
   margin-top: 5px; }
@@ -269,17 +269,17 @@ label {
 
 .subdown {
   margin-top: 40px;
-  background-color: #00FFFF; }
+  background-color: #FFDF00; }
 
 .subdown_title {
   line-height: 40px; }
 
 .shop_pill {
-  background-color: #00FFFF; }
+  background-color: #FFDF00; }
 
 .subdown1 {
   margin-top: 0px;
-  background-color: #00FFFF;
+  background-color: #FFDF00;
   line-height: 40px; }
 
 .itemm img {
@@ -299,11 +299,11 @@ label {
 
 .subdown1 {
   margin-top: 0px;
-  background-color: #00FFFF;
+  background-color: #FFDF00;
   line-height: 40px; }
 
 .checkoutbtn {
-  background: #008000; }
+  background: rgba(255, 193, 7, 0.66); }
 
 .checkout {
   margin-top: 80px; }
@@ -313,8 +313,8 @@ label {
   width: 50px; }
 
 .shopping {
-  background-color: #008000;
-  border-color: #008000;
+  background-color: rgba(255, 193, 7, 0.66);
+  border-color: rgba(255, 193, 7, 0.66);
   margin-top: 10px; }
 
 .shopping a:hover {
@@ -340,13 +340,13 @@ label {
   margin: 30px 20px; }
 
 .add_button {
-  background-color: #00FFFF;
+  background-color: #FFDF00;
   border: none;
   color: black;
   padding: 3px 14px; }
 
 .add_button:hover {
-  background-color: #008000;
+  background-color: rgba(255, 193, 7, 0.66);
   color: black; }
 
 .qty {
@@ -356,7 +356,7 @@ label {
   width: 50px;
   padding: 5px 5px;
   margin-left: 13px;
-  background-color: #00FFFF;
+  background-color: #FFDF00;
   text-align: center; }
 
 .tab_p {
@@ -404,13 +404,13 @@ label {
 
 .btn-send {
   border-radius: 0px;
-  border: 1px solid #00FFFF;
-  background: #00FFFF;
+  border: 1px solid #FFDF00;
+  background: #FFDF00;
   color: black; }
 
 .btn-send:hover {
-  border: 1px solid #008000;
-  background: #008000;
+  border: 1px solid rgba(255, 193, 7, 0.66);
+  background: rgba(255, 193, 7, 0.66);
   color: black;
   transition: background 0.5s; }
 

@@ -5,8 +5,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif !important;
   overflow-x: hidden;
   margin: 0px;
-  padding: 0px;
-  /*background-color: red;*/ }
+  padding: 0px; }
 
 p {
   font-family: 'Raleway', sans-serif;
@@ -39,7 +38,7 @@ label {
   position: absolute;
   width: 100%;
   content: "";
-  border: 1px solid yellow;
+  border: 1px solid #fff;
   top: 40%;
   z-index: -1; }
 
@@ -48,15 +47,16 @@ label {
   padding: 5px 10px; }
 
 .slider_button {
-  background-color: #FFDF00;
-  border: none; }
+  background-color: #fff;
+  border: none;
+  color: black; }
 
 .slider_button:hover {
-  background-color: white;
+  background-color: red;
   color: black; }
 
 .menu-bg {
-  background: #FFDF00; }
+  background-color: #fff; }
 
 .category_detaili {
   margin-top: 30px;
@@ -71,15 +71,18 @@ label {
   padding: 0px; }
 
 .listcategory {
-  background-color: #ffc107;
+  background-color: #fff;
   padding: 10px; }
 
+.listcategory:hover {
+  background-color: red; }
+
 .custom {
-  background-color: #ffc107;
+  background-color: #fff;
   text-align: center; }
 
 .custom1 {
-  background-color: rgba(255, 193, 7, 0.66);
+  background-color: red;
   padding: 0px 9px; }
 
 .btn-category {
@@ -146,7 +149,7 @@ label {
   line-height: 60px;
   text-align: center;
   width: 60px;
-  background-color: rgba(255, 193, 7, 0.66);
+  background-color: red;
   height: 60px;
   border-radius: 50%; }
 
@@ -162,13 +165,13 @@ label {
   padding: 0px 20px; }
 
 .discount_button {
-  background-color: #FFDF00;
+  background-color: #fff;
   color: black;
   border: none;
   float: right; }
 
 .discount_button:hover {
-  background-color: rgba(255, 193, 7, 0.66);
+  background-color: red;
   color: black;
   border: none; }
 
@@ -187,7 +190,7 @@ label {
   width: auto !important; }
 
 .footer {
-  background-color: #FFDF00;
+  background-color: #fff;
   color: black;
   margin-top: 10px; }
 
@@ -214,12 +217,12 @@ label {
   width: 50px;
   padding: 5px 5px;
   margin-left: 10px;
-  background-color: rgba(255, 193, 7, 0.66);
+  background-color: red;
   text-align: center; }
 
 .copyright {
   height: 60px;
-  background-color: rgba(255, 193, 7, 0.66);
+  background-color: red;
   text-align: center;
   line-height: 60px; }
 
@@ -227,6 +230,30 @@ label {
   font-size: 50px;
   margin-top: 5px;
   text-align: right; }
+
+.invoice {
+  margin-top: 100px; }
+
+.invoice_left {
+  margin-left: 10px; }
+
+.invoice_right {
+  margin-right: 5px; }
+
+.mid_invoice {
+  margin-top: 100px; }
+
+.authorized {
+  text-align: center; }
+
+.send {
+  padding: 12px;
+  margin-left: 221px;
+  background-color: #fff;
+  border-color: #fff; }
+
+.send:hover {
+  background-color: red; }
 
 .latest {
   margin-top: 5px; }
@@ -242,14 +269,17 @@ label {
 
 .subdown {
   margin-top: 40px;
-  background-color: #FFDF00; }
+  background-color: #fff; }
 
 .subdown_title {
   line-height: 40px; }
 
+.shop_pill {
+  background-color: #fff; }
+
 .subdown1 {
   margin-top: 0px;
-  background-color: #FFDF00;
+  background-color: #fff;
   line-height: 40px; }
 
 .itemm img {
@@ -269,11 +299,11 @@ label {
 
 .subdown1 {
   margin-top: 0px;
-  background-color: #FFDF00;
+  background-color: #fff;
   line-height: 40px; }
 
 .checkoutbtn {
-  background: rgba(255, 193, 7, 0.66); }
+  background: red; }
 
 .checkout {
   margin-top: 80px; }
@@ -283,8 +313,8 @@ label {
   width: 50px; }
 
 .shopping {
-  background-color: rgba(255, 193, 7, 0.66);
-  border-color: rgba(255, 193, 7, 0.66);
+  background-color: red;
+  border-color: red;
   margin-top: 10px; }
 
 .shopping a:hover {
@@ -292,7 +322,9 @@ label {
 
 .navtab {
   padding: 5px 10px;
-  margin-left: 2px; }
+  margin-left: 2px;
+  background-color: red;
+  color: yellow; }
 
 .navtab a:hover {
   text-decoration: none; }
@@ -303,6 +335,29 @@ label {
 
 .adda:hover {
   text-decoration: none; }
+
+.view_detail {
+  margin: 30px 20px; }
+
+.add_button {
+  background-color: #fff;
+  border: none;
+  color: black;
+  padding: 3px 14px; }
+
+.add_button:hover {
+  background-color: red;
+  color: black; }
+
+.qty {
+  margin-top: 20px; }
+
+.social1 {
+  width: 50px;
+  padding: 5px 5px;
+  margin-left: 13px;
+  background-color: #fff;
+  text-align: center; }
 
 .tab_p {
   border: 1px solid gray;
@@ -321,7 +376,6 @@ label {
   border-right: 1px solid gray;
   padding: 50px 80px; }
 
-/* Conatct start */
 .head_top1 {
   margin-top: 60px; }
 
@@ -350,13 +404,13 @@ label {
 
 .btn-send {
   border-radius: 0px;
-  border: 1px solid #FFDF00;
-  background: #FFDF00;
+  border: 1px solid #fff;
+  background: #fff;
   color: black; }
 
 .btn-send:hover {
-  border: 1px solid rgba(255, 193, 7, 0.66);
-  background: rgba(255, 193, 7, 0.66);
+  border: 1px solid red;
+  background: red;
   color: black;
   transition: background 0.5s; }
 
